@@ -15,9 +15,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('./images/pattern-background-desktop.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url(./images/pattern-background-desktop.svg) repeat-x
+    hsl(225, 100%, 94%) fixed;
     font-family: 'Red Hat Display', 'Sans-serif';
 }
 
